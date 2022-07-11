@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Basketball Match Counter</title>
+</head>
+<body>
+    <div class="basket-counter">
+        <div class="columns">
+            <h1>HOME</h1>
+            <div class="counter">
+                <p id="counter1">0</p>
+            </div>
+            <div class="buttons">
+                <button id="btn-h-1" onclick="addOne1()">+1</button>
+                <button id="btn-h-2" onclick="addTwo1()">+2</button>
+                <button id="btn-h-3" onclick="addThree1()">+3</button>
+            </div>
+        </div>
+        <div class="columns">
+            <h1>GUEST</h1>
+            <div class="counter">
+                <p id="counter2">0</p>
+            </div>
+            <div class="buttons">
+                <button id="btn-g-1" onclick="addOne2()">+1</button>
+                <button id="btn-g-2" onclick="addTwo2()">+2</button>
+                <button id="btn-g-3" onclick="addThree2()">+3</button>
+            </div>
+        </div>
+        <button class="reset" onclick="reset()"> reset </button>
+    </div>    
+    <script src="index.js"></script>
+</body>
+</html>
